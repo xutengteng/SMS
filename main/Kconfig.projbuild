@@ -1,0 +1,29 @@
+menu "APP Configuration"
+    menu "Device Configuration"
+        choice DEVICE_TYPE
+            prompt "Slect the type of the device."
+            default SOCKET_16A
+            config SOCKET_10A
+                bool "10A"
+                config SOCKET_ACCOUNT
+                    string "account"
+                    default "BE17C8M0100000000001"
+                    depends on SOCKET_10A
+                config SOCKET_PASSWORD
+                    string "password"
+                    default "8caf5408d0cdaaef"
+                    depends on SOCKET_10A
+            config SOCKET_16A
+                bool "16A"
+                config SOCKET_ACCOUNT
+                    string "account"
+                    default "BE17C9M0100000000001"
+                    depends on SOCKET_16A
+                config SOCKET_PASSWORD
+                    string "password"
+                    default "75622e04c987d9f6"
+                    depends on SOCKET_16A
+        endchoice
+        
+    endmenu
+endmenu
