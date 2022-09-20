@@ -35,22 +35,24 @@ In the `Component config` menu:
 * [ESP-IDF Getting Started Guide on ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
 
 ## DEBUG FINISH
-* BLUFI
-* MQTT
-* BL0937交流电能芯片
-* NVS存储
-* LED
-* KEY
+* -[×]BLUFI
+* -[×]MQTT
+* -[×]BL0937交流电能芯片
+* -[×]NVS存储
+* -[×]LED
+* -[×]KEY
 
-版本v1.0
-1.10A设备版本，16A设备版本与此版本兼容，通过menuconfig配置设备类型
-2.【交付】
 
-版本v1.1
-1.根据硬件添加按键、指示灯的代码
-2.重新【交付】
+## THE HISTERY OF RELEASE 
+### 版本v1.0
+1. 10A设备版本，16A设备版本与此版本兼容，通过menuconfig配置设备类型
+2. 【交付】
 
-版本v1.2
-1.修改设备MQTT id重复导致MQTT连接失败问题，将BE码作为MQTT id
-2.改小断点续传存储:0x78(130)-> 0x3c(60),防止溢出
-3.在产测软件未研发成功前，供临时测试
+### 版本v1.1
+1. 根据硬件添加按键、指示灯的代码
+2. 重新【交付】
+
+### 版本v1.2
+1. 修改设备MQTT id重复导致MQTT连接失败问题，将BE码作为MQTT id
+2. 改小断点续传存储:0x78(130)-> 0x3c(60),防止溢出
+3. 在产测软件未研发成功前，供临时测试
