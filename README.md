@@ -35,12 +35,12 @@ In the `Component config` menu:
 * [ESP-IDF Getting Started Guide on ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
 
 ## DEBUG FINISH
-* -[×]BLUFI
-* -[×]MQTT
-* -[×]BL0937交流电能芯片
-* -[×]NVS存储
-* -[×]LED
-* -[×]KEY
+* -[×] BLUFI
+* -[×] MQTT
+* -[×] BL0937交流电能芯片
+* -[×] NVS存储
+* -[×] LED
+* -[×] KEY
 
 
 ## THE HISTERY OF RELEASE 
